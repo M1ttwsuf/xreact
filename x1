@@ -1,0 +1,24 @@
+import './App.css';
+
+function App() {
+  const name = "MJ";
+  const naver = {
+    name : '네이버',
+    url : "https://naver.com",
+  }
+  return (
+    <div className="App">
+       <h1 style={{
+        color : 'orange',
+        backgroundColor : "Black",
+       }}
+       >
+        Hello, {name}.
+        <p> {3+4}</p>  
+       </h1>
+       <a href = {naver.url}>{naver.name}</a>
+    </div>
+  );
+}
+
+export default App;
